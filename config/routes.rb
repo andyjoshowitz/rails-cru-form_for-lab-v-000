@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :songs
+  resources :songs
   resources :genres
   resources :artists
   # The priority is based upon order of creation: first created -> highest priority.
